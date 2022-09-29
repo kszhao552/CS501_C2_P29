@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">C2_P29</string>
+    <string name="food1">Pasta</string>
+    <string name="food2">Salad</string>
+    <string name="food3">Steak</string>
+    <string name="count_label">Total Calories: </string>
+    <string name="calories">%1$d cals</string>
+    <string name="submit">Submit</string>
+</resources>

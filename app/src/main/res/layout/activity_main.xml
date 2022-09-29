@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/food1_count"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="20dp"
+        android:text="@string/calories" />
+
+    <TextView
+        android:id="@+id/food2_count"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/food1_count"
+        android:layout_toLeftOf="@+id/food1_count"
+        android:paddingHorizontal="10dp"
+        android:text="@string/calories" />
+
+    <TextView
+        android:id="@+id/food3_count"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/food1_count"
+        android:layout_toRightOf="@+id/food1_count"
+        android:paddingHorizontal="10dp"
+        android:text="@string/calories" />
+
+    <TextView
+        android:id="@+id/food1_name"
+        style="@style/label_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/food1_count"
+        android:layout_centerHorizontal="true"
+        android:text="@string/food1" />
+
+    <TextView
+        android:id="@+id/food2_name"
+        style="@style/label_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/food1_count"
+        android:layout_alignLeft="@+id/food2_count"
+        android:layout_alignRight="@+id/food2_count"
+        android:gravity="center"
+        android:text="@string/food2" />
+
+    <TextView
+        android:id="@+id/food3_name"
+        style="@style/label_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/food1_count"
+        android:layout_alignLeft="@+id/food3_count"
+        android:layout_alignRight="@+id/food3_count"
+        android:gravity="center"
+        android:text="@string/food3" />
+
+    <TextView
+        android:id="@+id/label_name"
+        style="@style/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="20dp"
+        android:text="@string/count_label" />
+
+    <TextView
+        android:id="@+id/count_name"
+        style="@style/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_name"
+        android:text="@string/calories"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/submit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food1_count"
+        android:layout_centerHorizontal="true"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food1_count"
+        android:layout_alignLeft="@+id/food2_count"
+        android:layout_alignRight="@+id/food2_count"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food1_count"
+        android:layout_alignLeft="@+id/food3_count"
+        android:layout_alignRight="@+id/food3_count"
+        android:inputType="number" />
+</RelativeLayout>

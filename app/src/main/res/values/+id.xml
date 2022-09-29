@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="food1_name">food1</string>
+    <string name="food2_name">food2</string>
+    <string name="food3_name">food3</string>
+    <string name="food1_cal">food1_cal</string>
+    <string name="food2_cal">food2_cal</string>
+    <string name="food3_cal">food3_cal</string>
+    <string name="food1_serve">food1_serve</string>
+    <string name="food2_serve">food2_serve</string>
+    <string name="food3_serve">food3_serve</string>
+    <string name="submit_name">submit</string>
+    <string name="count_name">count</string>
+    <string name="label_name">label</string>
+    <string name="edit1">edit1</string>
+    <string name="edit2">edit2</string>
+    <string name="edit3">edit3</string>
+</resources>
